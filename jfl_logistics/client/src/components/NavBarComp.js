@@ -8,7 +8,8 @@ function NavBarComp() {
     const styles = {
         noPadding: {
             padding: 0
-        }
+        },
+
     }
 
     return (
@@ -30,6 +31,7 @@ function NavBarComp() {
                     </Nav>
 
                 </Navbar.Collapse>
+                <button className="btn btn-outline-success my-2 my-sm-0" type="submit" >Request a Quote!</button>
             </Navbar>
         </div>
     )
