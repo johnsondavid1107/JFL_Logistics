@@ -9,17 +9,23 @@ function NavBarComp() {
         noPadding: {
             padding: 0
         },
+        bgColor: {
+            backgroundColor: "#ff2400"
+        },
+        goldText: {
+            color: "#ffd700"
+        }
 
     }
 
     return (
         <div className="container-fluid" style={styles.noPadding}>
-            <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">JFL Logistics</Navbar.Brand>
+            <Navbar style={styles.bgColor} expand="lg">
+                <Navbar.Brand href="#home" style={styles.goldText}>JFL Logistics</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#home" style={styles.goldText}>Home</Nav.Link>
                         <Nav.Link href="#link">Link</Nav.Link>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -31,7 +37,7 @@ function NavBarComp() {
                     </Nav>
 
                 </Navbar.Collapse>
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit" >Request a Quote!</button>
+                <button className="btn btn-outline-warning my-2 my-sm-0" type="submit" >Request a Quote!</button>
             </Navbar>
         </div>
     )
