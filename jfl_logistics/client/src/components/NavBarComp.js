@@ -10,10 +10,10 @@ function NavBarComp() {
             padding: 0
         },
         bgColor: {
-            backgroundColor: "#ff2400"
+            backgroundColor: "#ffd700" //gold
         },
         goldText: {
-            color: "#ffd700"
+            color: "#ff2400 " //scarlet
         }
 
     }
@@ -37,7 +37,7 @@ function NavBarComp() {
                     </Nav>
 
                 </Navbar.Collapse>
-                <button className="btn btn-outline-warning my-2 my-sm-0" type="submit" >Request a Quote!</button>
+                <button className="btn btn-outline-danger my-2 my-sm-0" type="submit" >Request a Quote!</button>
             </Navbar>
         </div>
     )

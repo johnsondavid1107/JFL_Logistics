@@ -3,6 +3,7 @@ import JFLTruck from "../components/jflTruck.jpg"
 import JumbotronMain from "../components/JumbotronMain";
 import JumbotronContent from "../components/JumbrotronContent"
 import AboutMain from "../components/aboutMain";
+import Contact from "../components/Contact";
 
 function Home() {
     const styles = {
@@ -28,6 +29,8 @@ function Home() {
             </div>
             <JumbotronContent />
             <AboutMain />
+            <Contact />
+
         </div>
 
     )
