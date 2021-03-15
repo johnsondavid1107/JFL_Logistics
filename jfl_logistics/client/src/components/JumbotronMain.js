@@ -4,14 +4,14 @@ function JumbotronMain() {
 
     const styles = {
         back: {
-            backgroundColor: "black",
+            backgroundColor: "white",
             opacity: ".8",
             position: "relative",
             paddingTop: "20px",
             paddingBottom: "20px"
         },
         textColor: {
-            color: "#ffd700"
+            color: "black"
         },
         baby: {
             position: "absolute",
@@ -28,7 +28,7 @@ function JumbotronMain() {
             <div className="jumbotron jumbotron-fluid" style={styles.back}>
                 <div className="container">
                     <h1 className="display-4" style={styles.textColor}>JFL Logistics</h1>
-                    <p className="lead" style={styles.textColor}>"Your pickup and delivery professionals!".</p>
+                    <p className="lead" style={styles.textColor}>"We get it done, when you NEED it done!".</p>
                 </div>
             </div>
 

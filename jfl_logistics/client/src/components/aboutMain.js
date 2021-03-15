@@ -1,5 +1,6 @@
 import React from "react"
 import Mike from "./Mike.jpg"
+import './aboutMain.css'
 
 function AboutMain() {
 

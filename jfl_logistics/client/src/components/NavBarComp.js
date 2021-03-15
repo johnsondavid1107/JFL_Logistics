@@ -10,10 +10,10 @@ function NavBarComp() {
             padding: 0
         },
         bgColor: {
-            backgroundColor: "#ffd700" //gold
+            backgroundColor: "white" //gold
         },
         goldText: {
-            color: "#ff2400 " //scarlet
+            color: "black " //scarlet
         }
 
     }
