@@ -3,6 +3,7 @@ import { Navbar } from "react-bootstrap"
 import { Nav } from "react-bootstrap"
 import { NavDropdown } from "react-bootstrap"
 import Icon from "./Icon.png"
+import "./navCSS.css"
 
 function NavBarComp() {
 
@@ -12,13 +13,14 @@ function NavBarComp() {
         },
         bgColor: {
             backgroundColor: "white" //gold
+
         },
         goldText: {
             color: "black " //scarlet
         },
         imgSize: {
             width: "200px",
-            marginLeft: "50px",
+            marginLeft: "20px",
             marginRight: "50px"
         }
 
@@ -26,8 +28,16 @@ function NavBarComp() {
 
     return (
         <div className="container-fluid" style={styles.noPadding}>
-            <Navbar style={styles.bgColor} expand="lg">
-                <Navbar.Brand href="#home"><img src={Icon} alt="Brand Logo" style={styles.imgSize}></img></Navbar.Brand>
+
+            <nav className="navbar message justify-content-center">
+                <strong>Need a question answered right away?  Call Mike Lapi Now 555-5555</strong>
+
+            </nav>
+
+
+
+            <Navbar className="noPaddingLow" style={styles.bgColor} expand="lg">
+                <Navbar.Brand href="#home" className="noPaddingLow"><img src={Icon} alt="Brand Logo" style={styles.imgSize}></img></Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
