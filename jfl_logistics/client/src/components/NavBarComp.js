@@ -2,6 +2,7 @@ import React from "react"
 import { Navbar } from "react-bootstrap"
 import { Nav } from "react-bootstrap"
 import { NavDropdown } from "react-bootstrap"
+import Icon from "./Icon.png"
 
 function NavBarComp() {
 
@@ -14,6 +15,11 @@ function NavBarComp() {
         },
         goldText: {
             color: "black " //scarlet
+        },
+        imgSize: {
+            width: "200px",
+            marginLeft: "50px",
+            marginRight: "50px"
         }
 
     }
@@ -21,7 +27,8 @@ function NavBarComp() {
     return (
         <div className="container-fluid" style={styles.noPadding}>
             <Navbar style={styles.bgColor} expand="lg">
-                <Navbar.Brand href="#home" style={styles.goldText}>JFL Logistics</Navbar.Brand>
+                <Navbar.Brand href="#home"><img src={Icon} alt="Brand Logo" style={styles.imgSize}></img></Navbar.Brand>
+
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

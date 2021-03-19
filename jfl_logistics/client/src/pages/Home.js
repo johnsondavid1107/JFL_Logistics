@@ -20,7 +20,7 @@ function Home() {
     }
     return (
         <div>
-            <JumbotronMain />
+            {/* <JumbotronMain /> */}
             <div className="row">
                 <div className="col-12">
                     <div src={JFLTruck} alt="truck" style={styles.parallax}></div>

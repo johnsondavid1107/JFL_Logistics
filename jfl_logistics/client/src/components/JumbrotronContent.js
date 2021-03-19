@@ -1,5 +1,9 @@
 import React from "react"
 import Delivery from "./delivery.jpg"
+import Warehouse from "./photos/warehouse.jpg"
+import NinetyFive from "./photos/95.jpg"
+import Truck from "./photos/Truck.jpeg"
+import "./JumbotronContent.css"
 
 function JumbotronContent() {
 
@@ -22,9 +26,42 @@ function JumbotronContent() {
                 <div className="container">
                     <h1 className="display-4">What we do!</h1>
                     <div className="row">
-                        <div className="col-7"><p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p></div>
-                        <div className="col-5">
-                            <img src={Delivery} alt="photoop" style={styles.imgBorder}></img>
+                        <div className="col-12 col-lg-4">
+
+                            <div className="card" >
+                                <img className="card-img-top imgSize" src={Warehouse} alt="warehouse" />
+                                <div className="card-body">
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+
+                            </div>
+                            <h2 className="text-center">Warehouseing</h2>
+
+                        </div>
+                        <div className="col-12 col-lg-4">
+                            <div className="card" >
+                                <img className="card-img-top imgSize" src={Truck} alt="trucks" />
+                                <div className="card-body">
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+
+                            <h2 className="text-center">Transportation</h2>
+                        </div>
+                        <div className="col-12 col-lg-4">
+
+                            <div className="card" >
+                                <img className="card-img-top imgSize" src={NinetyFive} alt="route sign" />
+                                <div className="card-body">
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <h2 className="text-center">Multi-Location</h2>
+
+
+
+
+
                         </div>
 
 
