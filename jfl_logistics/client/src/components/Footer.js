@@ -5,7 +5,7 @@ function Footer() {
     const styles = {
         noPadding: {
             padding: 0,
-            marginTop: "50px"
+            marginTop: "0px"
 
         },
         noMargin: {

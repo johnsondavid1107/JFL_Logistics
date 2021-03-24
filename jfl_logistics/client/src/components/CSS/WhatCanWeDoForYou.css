@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+@media only screen and (min-width: 991px) {
+    .imgSize {
+      height: 250px;
+    }
+  }
+
+
+  .imgSize:hover {
+      opacity: .6;
+  }
+.line {
+    width: 80px;
+    height: 2px;
+    display: inline-block;
+    background-color:#cc1d00;
+    margin-bottom: 20px;
+}
+
+.fontStyle{
+    font-family: 'Kanit', sans-serif;
+}
+.card {
+    width: 100%;
+}

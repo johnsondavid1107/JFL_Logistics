@@ -1,9 +1,7 @@
 import React from "react"
-import JFLTruck from "../components/jflTruck.jpg"
-import JumbotronMain from "../components/JumbotronMain";
-import JumbotronContent from "../components/JumbrotronContent"
-import AboutMain from "../components/aboutMain";
-import Contact from "../components/Contact";
+import JFLTruck from "../components/photos/jflTruck.jpg"
+import WhatCanWeDoForYou from "../components/WhatCanWeDoForYou"
+
 
 function Home() {
     const styles = {
@@ -20,16 +18,14 @@ function Home() {
     }
     return (
         <div>
-            {/* <JumbotronMain /> */}
+
             <div className="row">
                 <div className="col-12">
                     <div src={JFLTruck} alt="truck" style={styles.parallax}></div>
 
                 </div>
             </div>
-            <JumbotronContent />
-            <AboutMain />
-            <Contact />
+            <WhatCanWeDoForYou />
 
         </div>
 

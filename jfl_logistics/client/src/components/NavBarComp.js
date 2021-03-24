@@ -2,8 +2,8 @@ import React from "react"
 import { Navbar } from "react-bootstrap"
 import { Nav } from "react-bootstrap"
 import { NavDropdown } from "react-bootstrap"
-import Icon from "./Icon.png"
-import "./navCSS.css"
+import Icon from "./photos/Icon.png"
+import "./CSS/navCSS.css"
 
 function NavBarComp() {
 
@@ -30,21 +30,23 @@ function NavBarComp() {
         <div className="container-fluid" style={styles.noPadding}>
 
             <nav className="navbar message justify-content-center">
-                <strong>Need a question answered right away?  Call Mike Lapi Now 555-5555</strong>
+                <strong className="white">Need a question answered right away?  Call Mike Lapi Now 555-5555</strong>
 
             </nav>
 
 
 
-            <Navbar className="noPaddingLow" style={styles.bgColor} expand="lg">
+            <Navbar className="noPaddingLow" expand="lg">
+
                 <Navbar.Brand href="#home" className="noPaddingLow"><img src={Icon} alt="Brand Logo" style={styles.imgSize}></img></Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home" style={styles.goldText}>Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <Navbar.Collapse id="basic-navbar-nav d-flex  justify-content-end ">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="/" className="newFont">Home</Nav.Link>
+                        <Nav.Link href="/about" className="newFont">About Me</Nav.Link>
+                        <Nav.Link href="/Contact" className="newFont">Request a Quote</Nav.Link>
+                        <NavDropdown title="Dropdown" id="basic-nav-dropdown" className="newFont">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>

@@ -1,6 +1,6 @@
 import React from "react"
-import Mike from "./Mike.jpg"
-import './aboutMain.css'
+import Mike from "./photos/Mike.jpg"
+import './CSS/aboutMain.css'
 
 function AboutMain() {
 

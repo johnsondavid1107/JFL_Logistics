@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+.message{
+    background-color: #cc1d00;
+}
+
+.moveIn {
+    text-align: center;
+}
+
+.noPaddingLow {
+    padding-bottom: 0;
+}
+.white {
+    color: white;
+}
+
+.newFont {
+    font-family: 'Kanit', sans-serif;
+}
+.mr-auto {
+    margin-right: auto!important;
+}
+.btn {
+    margin-left: 4rem;
+}
