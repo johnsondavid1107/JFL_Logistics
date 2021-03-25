@@ -56,7 +56,7 @@ function NavBarComp() {
                     </Nav>
 
                 </Navbar.Collapse>
-                <button className="btn btn-outline-danger my-2 my-sm-0" type="submit" >Request a Quote!</button>
+                <Nav.Link href="/Contact"><button className="btn btn-outline-danger my-2 my-sm-0" type="submit" >Request a Quote!</button></Nav.Link>
             </Navbar>
         </div>
     )

@@ -99,7 +99,9 @@ function Contact() {
                                         <label>Message</label>
                                         <textarea className="form-control" id="exampleFormControlTextarea1" rows="6" value={message} onChange={handleMessageChange}></textarea>
                                     </div>
-                                    <button className="btn btn-outline-danger my-2 my-sm-0" type="submit" onClick={handleClick}>Submit</button>
+                                    <div className="row justify-content-end">
+                                        <button className="btn btn-outline-danger my-2 my-sm-0" type="submit" onClick={handleClick}>Submit</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
