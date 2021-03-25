@@ -32,7 +32,13 @@ function AboutMain() {
                     </div>
                     <div className="col-lg-8">
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ducimus tempore unde sit blanditiis, excepturi at culpa natus sequi beatae debitis reprehenderit quia porro laboriosam id rerum, hic numquam corporis fugit, eaque ipsum repudiandae accusamus officia? Non optio, suscipit voluptatum numquam, accusantium neque sapiente ipsa impedit minus repudiandae incidunt dignissimos.</p>
+                        <p>
+                            Michael Lapi is the president and CEO of JFL Logistics.  He has been in the warehouse and trucking industry for over 25 years.  Wide network of trucking and warehouse and can get the job DONE!  Mike has been known to do what ever he can to get the job done and is a straight-shooter.  An honest abe and all around well-rounded kinda guy!
+                            </p>
+
+
+
+
 
                     </div>
 

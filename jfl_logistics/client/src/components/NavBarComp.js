@@ -44,11 +44,11 @@ function NavBarComp() {
                 <Navbar.Collapse id="basic-navbar-nav d-flex  justify-content-end ">
                     <Nav className="ml-auto">
                         <Nav.Link href="/" className="newFont">Home</Nav.Link>
-                        <Nav.Link href="/about" className="newFont">About Me</Nav.Link>
+                        {/* <Nav.Link href="/about" className="newFont">About Me</Nav.Link> */}
                         <Nav.Link href="/Contact" className="newFont">Request a Quote</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown" className="newFont">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                        <NavDropdown title="About" id="basic-nav-dropdown" className="newFont">
+                            <NavDropdown.Item href="/about">About Me</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">About JFL Logistics</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
