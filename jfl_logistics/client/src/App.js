@@ -7,6 +7,7 @@ import About from "./components/aboutMain"
 import Contact from "./components/Contact"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import SocialMediaFooter from './components/SocialMediaFooter';
+import { ToastProvider, useToasts } from "react-toast-notifications"
 
 
 
@@ -16,24 +17,26 @@ function App() {
 
   return (
     <div>
-      <NavBarComp />
+      <ToastProvider>
+        <NavBarComp />
 
 
-      <Router>
-        <Route exact path={"/"}>
-          <Home />
-        </Route>
-        <Route exact path={"/about"}>
-          <About />
-        </Route>
-        <Route exact path={"/Contact"}>
-          <Contact />
-        </Route>
+        <Router>
+          <Route exact path={"/"}>
+            <Home />
+          </Route>
+          <Route exact path={"/about"}>
+            <About />
+          </Route>
+          <Route exact path={"/Contact"}>
+            <Contact />
+          </Route>
 
 
-      </Router>
-      <SocialMediaFooter />
-      <Footer />
+        </Router>
+        <SocialMediaFooter />
+        <Footer />
+      </ToastProvider>
     </div>
   );
 }
