@@ -13,9 +13,9 @@ function Contact() {
         sides: {
             borderLeft: "5px solid #cc1d00",
             borderRight: "5px solid #cc1d00",
+            borderTop: "5px solid #cc1d00",
             margin: 0,
-            paddingLeft: "50px",
-            paddingRight: "50px"
+            padding: "50px"
         }
     }
 

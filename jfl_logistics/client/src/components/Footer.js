@@ -13,19 +13,21 @@ function Footer() {
         },
         noMargin: {
             marginBottom: 0,
-            height: "50px",
+            height: "80px",
             padding: 0,
             backgroundColor: "black"
         },
         white: {
             color: "white",
-            paddingTop: "10px"
+            paddingTop: "25px"
         }
     }
     return (
         <div className="container-fluid" style={styles.noPadding}>
             <footer className="footer">
                 <div className="jumbotron jumbotron-fluid" style={styles.noMargin}>
+
+
                     <div className="container">
                         <div className="col-12">
 

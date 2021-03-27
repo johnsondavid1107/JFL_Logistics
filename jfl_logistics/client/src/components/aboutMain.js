@@ -12,7 +12,7 @@ function AboutMain() {
     }
     return (
 
-        <div className="jumbotron jumbotron-fluid">
+        <div className="jumbotron jumbotron-fluid aboutMeStyle">
             <div className="container">
                 <div className="row">
                     <div className="col-10">
@@ -26,14 +26,13 @@ function AboutMain() {
                         <div className="card" style={styles.cardWidth}>
                             <img src={Mike} alt=""></img>
 
-                            <div className="card-body">
-                            </div>
+
                         </div>
                     </div>
                     <div className="col-lg-8">
 
                         <p>
-                            Michael Lapi is the president and CEO of JFL Logistics.  He has been in the warehouse and trucking industry for over 25 years.  Wide network of trucking and warehouse and can get the job DONE!  Mike has been known to do what ever he can to get the job done and is a straight-shooter.  An honest abe and all around well-rounded kinda guy!
+                            Michael Lapi is the president and CEO of JFL Logistics.  He has been in the warehouse and trucking industry for over 25 years.  Wide network of trucking and warehouse and can get the job DONE!  Mike has been known to do what ever he can to get the job done and is a straight-shooter.  An honest abe and all around well-rounded kinda guy! He can get the job done when you NEED it done!
                             </p>
 
 

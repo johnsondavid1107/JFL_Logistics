@@ -1,7 +1,26 @@
 .iconFooter:hover {
 color: #FFD700;
+transform: scale(1.2);
 }
 .iconFooter {
     margin-right: 1rem;
-    color: #212529;
+    margin-bottom: 3px;
+    color: #dce2e9;
+    transition: .2s;
+}
+.iconText {
+    color: #dce2e9;
+    transition: all .2s ease-in-out;;
+
+}
+.iconText:hover{
+    color: #FFD700;
+    font-size: 20px;
+    transform: scale(1.2);
+    
+
+
+}
+a:hover{
+    text-decoration: none !important;
 }

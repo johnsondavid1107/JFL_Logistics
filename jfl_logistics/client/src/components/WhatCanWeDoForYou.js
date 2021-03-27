@@ -12,14 +12,11 @@ function WhatCanWeDoForYou() {
             backgroundColor: "white",
             borderLeft: "5px solid #cc1d00",
             borderRight: "5px solid #cc1d00",
+            borderTop: "5px solid #cc1d00",
             marginBottom: 0
         },
-        textColor: {
-            color: "#ffd700"
-        },
-        imgBorder: {
-            border: "5px solid #ff2400"
-        }
+
+
     }
 
     return (

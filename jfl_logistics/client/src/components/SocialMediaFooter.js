@@ -35,12 +35,12 @@ function SocialMediaFooter() {
                             <a href="https://www.linkedin.com/in/mike-lapi-0794bb36/" target="_blank">
                                 <AiFillLinkedin className={"iconFooter"} size={"2em"} />
                             </a>
-                            <b>JFL LinkedIn</b>
+                            <b className="iconText">JFL LinkedIn</b>
                         </div>
                         <div className="col-4"></div>
                         <div className="col-7">
                             <AiFillFacebook className={"iconFooter"} size={"2em"} />
-                            <b>JFL Facebook</b>
+                            <b className="iconText">JFL Facebook</b>
                         </div>
 
                     </div>
@@ -52,14 +52,16 @@ function SocialMediaFooter() {
                             <a href="https://www.google.com/maps/place/178+3rd+Ave,+Paterson,+NJ+07514/@40.9364382,-74.145322,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2fc8a6b98371d:0x9b161454cf375a5a!8m2!3d40.9364382!4d-74.1431333" target="_blank">
                                 <GiPositionMarker className={"iconFooter"} size={"2em"} />
                             </a>
-                            <b>178-184 3rd Ave, Paterson, NJ 07514</b>
+                            <a href="https://www.google.com/maps/place/178+3rd+Ave,+Paterson,+NJ+07514/@40.9364382,-74.145322,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2fc8a6b98371d:0x9b161454cf375a5a!8m2!3d40.9364382!4d-74.1431333" target="_blank">
+                                <b className="iconText">178-184 3rd Ave, Paterson, NJ 07514</b>
+                            </a>
                         </div>
                     </div>
                     <div className="row d-flex justify-content-center">
                         <div className="col-4"></div>
                         <div className="col-7">
                             <a href="mailto:alpinemike902@aol.com"> <AiFillMail className={"iconFooter"} size={"2em"} /></a>
-                            <b> alpinemike902@aol.com</b>
+                            <a href="mailto:alpinemike902@aol.com"><b className="iconText"> alpinemike902@aol.com</b></a>
 
                         </div>
                     </div>
