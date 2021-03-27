@@ -1,4 +1,7 @@
 import React from "react"
+import { AiFillLinkedin } from "react-icons/ai"
+
+
 
 function Footer() {
 
@@ -10,13 +13,13 @@ function Footer() {
         },
         noMargin: {
             marginBottom: 0,
-            height: "100px",
+            height: "50px",
             padding: 0,
             backgroundColor: "black"
         },
         white: {
             color: "white",
-            paddingTop: "20px"
+            paddingTop: "10px"
         }
     }
     return (
@@ -26,7 +29,7 @@ function Footer() {
                     <div className="container">
                         <div className="col-12">
 
-                            <p className="lead text-center" style={styles.white}><small>Copyright 2021 | JFL Logistics and Co. Site by David Johnson </small></p>
+                            <p className="lead text-center" style={styles.white}><small>© Copyright 2021 | JFL Logistics and Co. Site by David Johnson </small></p>
                         </div>
 
                     </div>

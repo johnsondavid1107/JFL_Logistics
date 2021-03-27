@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import About from "./components/aboutMain"
 import Contact from "./components/Contact"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import SocialMediaFooter from './components/SocialMediaFooter';
 
 
 
@@ -31,6 +32,7 @@ function App() {
 
 
       </Router>
+      <SocialMediaFooter />
       <Footer />
     </div>
   );
