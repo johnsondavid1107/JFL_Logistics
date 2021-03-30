@@ -25,3 +25,9 @@
 .card {
     width: 100%;
 }
+.addMargin {
+    margin: 1rem;
+}
+.space {
+    margin-top: 40px
+}

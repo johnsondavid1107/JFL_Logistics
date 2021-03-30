@@ -114,113 +114,145 @@ function Contact() {
 
 
     return (
-        <div className="container-fluid" style={styles.sides}>
+        <div className="container-fluid fontStyle" style={styles.sides}>
             <h1>Drop a line!</h1>
             <hr></hr>
-            <strong>Let us know how we can help</strong>
+            <strong className="addPadding">Let us know how we can help!</strong>
             <div className="row">
 
 
                 <div className="col-sm-12 col-lg-9">
-                    <div className="card">
+                    <div className="card addMargin">
                         <div className="card-body">
-                            <div>
-                                <form>
-                                    <div className="form-group">
-                                        <div className="row">
+
+                            <form>
+                                <div className="form-group">
+                                    <div className="row">
+                                        <div className="col-6">
 
 
-                                            <div className="col-6">
+                                            <label className="required"> First Name</label>
+                                            <input
+                                                type="text"
+                                                className="form-control"
+                                                onChange={handlefNameChange}
+                                                value={fName}
+                                                placeholder="First Name"
+                                                required
+                                            ></input>
+                                        </div>
+                                        <div className="col-6">
 
 
-                                                <label> First Name</label>
-                                                <input type="text" className="form-control" onChange={handlefNameChange} value={fName}></input>
-                                            </div>
-                                            <div className="col-6">
+                                            <label className="required"> Last Name</label>
+                                            <input
+                                                type="text"
+                                                className="form-control"
+                                                onChange={handlelNameChange}
+                                                value={lName}
+                                                placeholder="Last Name"
+                                                required
+                                            ></input>
+                                        </div>
 
+                                    </div>
+                                </div>
 
-                                                <label> Last Name</label>
-                                                <input type="text" className="form-control" onChange={handlelNameChange} value={lName}></input>
-                                            </div>
+                                <div className="form-group" >
+                                    <div className="row">
 
+                                        <div className="col-6">
+                                            <label className="required"> Email Address</label>
+                                            <input
+                                                type="email"
+                                                className="form-control"
+                                                name={email}
+                                                value={email}
+                                                onChange={handleEmailChange}
+                                                placeholder="Email Address"
+                                                required
+                                            ></input>
 
+                                        </div>
+
+                                        <div className="col-6">
+                                            <label className="required"> Phone Number</label>
+                                            <input type="text"
+                                                className="form-control"
+                                                name={number}
+                                                value={number}
+                                                onChange={handleNumberChange}
+                                                placeholder="Phone Number"
+                                                required
+                                            ></input>
 
                                         </div>
                                     </div>
 
-                                    <div className="form-group" >
-                                        <div className="row">
-
-                                            <div className="col-6">
-                                                <label> Email Address</label>
-                                                <input type="email" className="form-control" name={email} value={email} onChange={handleEmailChange}></input>
-
-                                            </div>
-
-                                            <div className="col-6">
-                                                <label> Phone Number</label>
-                                                <input type="text" className="form-control" name={number} value={number} onChange={handleNumberChange}></input>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
+                                </div>
 
 
-                                    <div className="form-check">
-                                        <input className="form-check-input" type="checkbox"
-                                            checked={radioClick}
-                                            onClick={handleFormClick}
-                                            onChange={changeRadio}
-                                            name="Warehouseing" />
-                                        <label className="form-check-label">
-                                            Warehousing
+                                <div className="form-check">
+                                    <input className="form-check-input" type="checkbox"
+                                        checked={radioClick}
+                                        onClick={handleFormClick}
+                                        onChange={changeRadio}
+                                        name="Warehouseing" />
+                                    <label className="form-check-label">
+                                        Warehousing
                                                 </label>
-                                    </div>
-                                    <div className="form-check">
-                                        <input className="form-check-input" type="checkbox"
-                                            checked={radioClick}
-                                            onClick={handleFormClick}
-                                            onChange={changeRadio}
-                                            name="Transportation" />
-                                        <label className="form-check-label">
-                                            Transportation
+                                </div>
+                                <div className="form-check">
+                                    <input className="form-check-input" type="checkbox"
+                                        checked={radioClick}
+                                        onClick={handleFormClick}
+                                        onChange={changeRadio}
+                                        name="Transportation" />
+                                    <label className="form-check-label">
+                                        Transportation
                                                 </label>
-                                    </div>
-                                    <div className="form-check">
-                                        <input className="form-check-input" type="checkbox"
-                                            checked={radioClick}
-                                            onClick={handleFormClick}
-                                            onChange={changeRadio}
-                                            name="Distribution" />
-                                        <label className="form-check-label">
-                                            Distrubution
+                                </div>
+                                <div className="form-check">
+                                    <input className="form-check-input" type="checkbox"
+                                        checked={radioClick}
+                                        onClick={handleFormClick}
+                                        onChange={changeRadio}
+                                        name="Distribution" />
+                                    <label className="form-check-label">
+                                        Distrubution
                                                 </label>
-                                    </div>
-                                    <div className="form-check">
-                                        <input className="form-check-input" type="checkbox"
-                                            checked={radioClick}
-                                            onClick={handleFormClick}
-                                            onChange={changeRadio}
-                                            name="General Information" />
-                                        <label className="form-check-label">
-                                            General Information
+                                </div>
+                                <div className="form-check">
+                                    <input className="form-check-input" type="checkbox"
+                                        checked={radioClick}
+                                        onClick={handleFormClick}
+                                        onChange={changeRadio}
+                                        name="General Information" />
+                                    <label className="form-check-label">
+                                        General Information
                                                 </label>
-                                    </div>
+                                </div>
 
 
 
 
 
-                                    <div className="form-group">
-                                        <label>Message</label>
-                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={message} onChange={handleMessageChange}></textarea>
-                                    </div>
-                                    <div className="row justify-content-end">
-                                        <button className="btn btn-outline-danger my-2 my-sm-0" type="submit" onClick={handleClick}>Submit</button>
-                                    </div>
-                                </form>
-                            </div>
+                                <div className="form-group">
+                                    <label className="addMargin">Message</label>
+                                    <textarea
+                                        className="form-control"
+                                        id="exampleFormControlTextarea1"
+                                        rows="3"
+                                        value={message}
+                                        onChange={handleMessageChange}
+                                        placeholder="Short and sweet.  Whatever it is, we will get it DONE!"
+                                    ></textarea>
+                                </div>
+                                <div className="row justify-content-end">
+                                    <button className="btn btn-outline-danger my-2 my-sm-0" type="submit" onClick={handleClick}>Submit</button>
+                                </div>
+                            </form>
+
                         </div>
                     </div>
                 </div>

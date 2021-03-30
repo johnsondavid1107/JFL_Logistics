@@ -1,15 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
-
-.mike{
-    font-family: 'Ranchers', cursive;
+.fontStyle {
+    font-family: 'Kanit', sans-serif;
 }
-
 .aboutMeStyle {
     background-color: white !important;
     border-left: 5px solid #cc1d00;
     border-right: 5px solid #cc1d00;
     border-top: 5px solid #cc1d00;
     margin-bottom: 0px !important; 
+    padding-top: 20px;
     
+}
+.underline {
+    text-decoration: underline;
+}
+
+@media (min-width: 576px){
+    .aboutMeStyle {
+        padding: 2rem !important
+    }
+}
+
+.space {
+    margin-right: 10px;
+
+}
+a h4{
+    color: black;
+    transition: all .2s ease-in-out;
+}
+a h4:hover{
+    color: #cc1d00;
+    font-size: 30px;
+   
+}
+.top{
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    top: 20px;
+    left: 100px
+}
+
+ul {
+    list-style-position: inside;
+    margin: 30px !important
+}
+h3 {
+    padding-bottom: 8px;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    display: inline-block;
+    background-color:#cc1d00;
+    margin-bottom: 20px;
 }
