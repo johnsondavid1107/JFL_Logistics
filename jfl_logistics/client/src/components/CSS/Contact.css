@@ -13,3 +13,10 @@
     content: "*";
 
 }
+.line {
+    width: 80px;
+    height: 2px;
+    display: inline-block;
+    background-color:#cc1d00;
+    margin-bottom: 20px;
+}

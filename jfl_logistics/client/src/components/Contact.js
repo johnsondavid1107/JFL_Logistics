@@ -22,7 +22,7 @@ function Contact() {
             borderRight: "5px solid #cc1d00",
             borderTop: "5px solid #cc1d00",
             margin: 0,
-            padding: "50px"
+            padding: "10px"
         }
     }
 
@@ -116,19 +116,20 @@ function Contact() {
     return (
         <div className="container-fluid fontStyle" style={styles.sides}>
             <h1>Drop a line!</h1>
+            <span className="line"></span>
             <hr></hr>
             <strong className="addPadding">Let us know how we can help!</strong>
             <div className="row">
 
 
                 <div className="col-sm-12 col-lg-9">
-                    <div className="card addMargin">
+                    <div className="card">
                         <div className="card-body">
 
                             <form>
                                 <div className="form-group">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
 
 
                                             <label className="required"> First Name</label>
@@ -141,7 +142,7 @@ function Contact() {
                                                 required
                                             ></input>
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
 
 
                                             <label className="required"> Last Name</label>
@@ -161,7 +162,7 @@ function Contact() {
                                 <div className="form-group" >
                                     <div className="row">
 
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <label className="required"> Email Address</label>
                                             <input
                                                 type="email"
@@ -175,7 +176,7 @@ function Contact() {
 
                                         </div>
 
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <label className="required"> Phone Number</label>
                                             <input type="text"
                                                 className="form-control"

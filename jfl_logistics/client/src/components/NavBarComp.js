@@ -30,7 +30,7 @@ function NavBarComp() {
         <div className="container-fluid" style={styles.noPadding}>
 
             <nav className="navbar message justify-content-center">
-                <strong className="white">Need a question answered right away?  Call Mike Lapi Now 555-5555</strong>
+                <strong className="white">Need a question answered right away?  Call Mike Lapi Now 201-926-4012 !</strong>
 
             </nav>
 
@@ -49,9 +49,9 @@ function NavBarComp() {
                         <NavDropdown title="About" id="basic-nav-dropdown" className="newFont">
                             <NavDropdown.Item href="/about">About Me</NavDropdown.Item>
                             <NavDropdown.Item href="/location">About JFL Logistics</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                         </NavDropdown>
                     </Nav>
 

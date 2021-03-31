@@ -21,6 +21,11 @@
         padding: 2rem !important
     }
 }
+@media (max-width: 576px){
+    ul .fontStyle{
+        margin: 0 !important;
+    }
+}
 
 .space {
     margin-right: 10px;
@@ -47,7 +52,7 @@ a h4:hover{
 
 ul {
     list-style-position: inside;
-    margin: 30px !important
+    
 }
 h3 {
     padding-bottom: 8px;
