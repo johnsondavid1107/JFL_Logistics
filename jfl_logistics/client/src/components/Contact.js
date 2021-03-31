@@ -34,7 +34,7 @@ function Contact() {
             radio: radio,
             phone_number: number
         };
-        emailjs.send("contact_service", "contactform", templateParams)
+        emailjs.send("contact_service", "contact_form", templateParams)
             .then(function (response) {
                 console.log("message sent")
                 console.log(response)
