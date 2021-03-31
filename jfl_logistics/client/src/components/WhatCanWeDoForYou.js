@@ -59,7 +59,7 @@ function WhatCanWeDoForYou() {
                             <div className="card-body">
                                 <p className="card-text fontStyle">
                                     Serving all of the tri-state area <br />
-                                    (New York, New Jersey and Conneticut) and more!  Call for details to know how far we can serve you!
+                                    (New York, New Jersey and Connecticut) and more!  Call for details to know how far we can serve you!
                                     </p>
                             </div>
                         </div>

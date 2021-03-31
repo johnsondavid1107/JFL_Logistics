@@ -20,7 +20,7 @@ function AboutJFL() {
             <span className="line"></span>
 
             <div className="row d-flex justify-content-center">
-                <h4 className="fontStyle space">Address: 178 3rd Avenue Patterson, New Jersey 07514</h4>
+                <h4 className="fontStyle space">Address: 178 3rd Avenue Paterson, New Jersey 07514</h4>
 
             </div>
 
