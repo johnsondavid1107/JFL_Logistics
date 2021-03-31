@@ -19,6 +19,12 @@
     font-family: 'Kanit', sans-serif;
 }
 
-.btn {
-    margin-left: 4rem;
+.btn-outline-danger {
+  color: #cc1d00 !important;
+  border-color: #cc1d00 !important;
 }
+.btn-outline-danger:hover {
+    color: #cc1d00 !important;
+    border-color: #cc1d00 !important;
+    background-color: gold !important;
+  }

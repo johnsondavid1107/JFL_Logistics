@@ -30,7 +30,7 @@ function NavBarComp() {
         <div className="container-fluid" style={styles.noPadding}>
 
             <nav className="navbar message justify-content-center">
-                <strong className="white">Need a question answered right away?  Call Mike Lapi Now 201-926-4012 !</strong>
+                <strong className="white">Need a question answered right away? <br /> Call Mike Lapi Now 201-926-4012 !</strong>
 
             </nav>
 
@@ -41,6 +41,7 @@ function NavBarComp() {
                 <Navbar.Brand href="#home" className="noPaddingLow"><img src={Icon} alt="Brand Logo" style={styles.imgSize}></img></Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
                 <Navbar.Collapse id="basic-navbar-nav d-flex  justify-content-end ">
                     <Nav className="ml-auto">
                         <Nav.Link href="/" className="newFont">Home</Nav.Link>
@@ -56,7 +57,8 @@ function NavBarComp() {
                     </Nav>
 
                 </Navbar.Collapse>
-                <Nav.Link href="/Contact"><button className="btn btn-outline-danger my-2 my-sm-0" type="submit" >Request a Quote!</button></Nav.Link>
+                <Nav.Link href="/Contact"><button className="btn btn-outline-danger my-sm-0" type="submit" >Request a Quote!</button></Nav.Link>
+
             </Navbar>
         </div>
     )

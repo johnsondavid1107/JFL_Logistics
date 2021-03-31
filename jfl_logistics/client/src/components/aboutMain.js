@@ -27,14 +27,14 @@ function AboutMain() {
 
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 d-flex justify-content-center">
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
                         <div className="card" style={styles.cardWidth}>
-                            <img src={Mike} alt=""></img>
+                            <img src={Mike} className="mikeImage" alt=""></img>
 
 
                         </div>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-12 col-lg-8">
 
                         <h5 className="fontStyle underline">
                             Do you NEED the job done?  Well.. Mike and JFL Logistics is who you gotta call! </h5>
